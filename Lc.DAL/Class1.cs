@@ -8,5 +8,6 @@ namespace Lc.DAL
 {
     public class Class1
     {
+        private aa
     }
 }
