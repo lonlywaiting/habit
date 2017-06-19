@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LC.DAL", "Lc.DAL\LC.DAL.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LC.Web", "LC.Web\LC.Web.csproj", "{C9B9DD9F-07A5-4721-A46E-1336BCDA7F75}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetCollect", "NetCollect", "{B3557D67-67D2-484B-BD93-CC862CECF52F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCollect.Web", "NetCollect.Web\NetCollect.Web.csproj", "{37468B32-34C4-4807-B4F9-9E792A75E791}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,15 @@ Global
 		{C9B9DD9F-07A5-4721-A46E-1336BCDA7F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9B9DD9F-07A5-4721-A46E-1336BCDA7F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9B9DD9F-07A5-4721-A46E-1336BCDA7F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37468B32-34C4-4807-B4F9-9E792A75E791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37468B32-34C4-4807-B4F9-9E792A75E791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37468B32-34C4-4807-B4F9-9E792A75E791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37468B32-34C4-4807-B4F9-9E792A75E791}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37468B32-34C4-4807-B4F9-9E792A75E791} = {B3557D67-67D2-484B-BD93-CC862CECF52F}
 	EndGlobalSection
 EndGlobal

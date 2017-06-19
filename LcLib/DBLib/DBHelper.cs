@@ -578,7 +578,9 @@ namespace LcLib.DBLib
             }
         }
 
-        
-
+        public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
